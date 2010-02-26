@@ -1,0 +1,15 @@
+name: Widgets System Menu Option
+id: WidgetsSystemMenuOption
+key: WidgetsSystemMenuOption
+description: Adds a Widgets option to the System menu
+version: 1.0
+author_name: 'Dan Wolfgang, uiNNOVATIONS'
+author_link: http://uinnovations.com
+
+applications:
+    cms:
+        menus:
+            system:widgets:
+                label: Widgets
+                order: 251
+                mode: list_widget
